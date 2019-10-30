@@ -1,7 +1,19 @@
-<mat-toolbar class="title">
-  <span>|| Hackathon - Unifacisa</span>
-    <mat-icon class="information">
-      {{icon}}
-    </mat-icon>
-</mat-toolbar>
-<button mat-button (click)="mudar()">Deus</button>
+<div style="min-width: 100vw">
+  <mat-toolbar class="title">
+    <span>|| Hackathon - Unifacisa</span>
+    <span class="space"></span>
+    <span>
+      <button class="information" mat-icon-button (click)="mudar()">
+        <mat-icon class="information">
+          {{icon}}
+        </mat-icon>
+      </button>
+    </span>  
+  </mat-toolbar>
+</div>
+<div class="border">
+  Tela Inicial 
+  <div class="table">
+    <button mat-button (click)="mudar()">Deus</button>
+  </div>
+</div>

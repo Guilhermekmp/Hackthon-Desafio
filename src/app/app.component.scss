@@ -1,9 +1,24 @@
 .information {
-    position : absolute;
-    right : 18px;
+    color:#ffffff;
 }
 
 .title {
-    position: relative;
+    position: static;
     left: 8px;
+    background: #2a3036;
+    color: rgb(221, 216, 216);
+}
+
+.space{
+    flex: 1 1 auto;
+}
+
+.border{
+    height:100%;
+    background:#c0c0c0;
+}
+
+.table{
+    margin:auto;
+    background: #ffffff;
 }

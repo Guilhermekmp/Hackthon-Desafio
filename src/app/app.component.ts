@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'proj';
   icon = 'information';
   mudar() {
-    if (this.icon === 'home'){
+    if (this.icon === 'home') {
       this.icon = 'information';
     } else {
       this.icon = 'home';
